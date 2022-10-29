@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
+  const navigate = useNavigate();
+  const navigateToUsers = ()=>{
+    navigate('/Users.js');
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section class="respond">
+      <div class='bg'>
+      <Navbar/>
+      <h1>WELCOME TO ONE WORLD</h1>
+      <p class= 'message'>Get connected, Make the world a smaller place.</p>
+      <p class= 'message'>One World, One Nation.</p>
+      <button class='button' onClick={navigateToUsers}>Get Started</button>
+      </div>
+    </section>
   );
 }
 

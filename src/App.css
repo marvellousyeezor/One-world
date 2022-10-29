@@ -1,38 +1,89 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg{
+  height: 100vh;
+  width: 100%;
+  background-image: url("C:\Users\Faith\Documents\Mine\Vellous\Projects\one-world\src\assets\world.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+
+h1{
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic; 
+}
+
+  @media(max-width: 481px) and (max-width: 768px){
+ h1{
+  margin-left: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic; 
+} 
+}
+
+.message{
+  margin-left: 5rem;
+  color: rgb(58, 58, 58);
+  font-style: italic;
+}
+
+  @media(max-width: 481px) and (max-width: 768px){
+  .message{
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(58, 58, 58);
+  font-style: italic;
+}
+}
+
+.button{
+  padding: 10px;
+  width: 170px;
+  margin-left: 5rem;
+  border-radius: 15px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 1rem;
+  font-size: 20px;
+  background-color: #213B59;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+  @media(max-width: 481px) and (max-width: 768px){
+  .button{
+  padding: 10px;
+  width: 170px;
+  margin-left: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 20px;
+  background-color: #213B59;
+  color: white;
+
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.respond{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  height: 100% 
 }

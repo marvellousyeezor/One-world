@@ -1,0 +1,224 @@
+
+img{
+  height: 100px;
+  width: 120px;
+}
+
+
+.navbar{
+  background-color: #bda020;
+  opacity: 0.8;
+  padding: 0 5rem;
+  display: flex;
+margin: 0 auto;
+max-width: 100%;
+width: 100%;
+  
+}
+
+.navtab{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.16rem;
+  margin: 2rem 16rem;
+  width: 450px;
+  height: 5px;
+  background-color: black;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.links{
+  background-color: #213B59;
+  color: white;
+  text-align: center;
+  width: 120px;
+  border-radius: 20px;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.linked{
+  color: white;
+  text-align: center;
+  width: 120px;
+  border-radius: 20px;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.active{
+  border-bottom-width: 1px;
+}
+
+.cover{
+  background-color: #F5F5F5;
+  height: 100vh;
+  width: 100%;
+}
+
+.notfound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+.notfound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  
+}
+}
+
+.header{
+  font-size: 50px;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+color: rgb(58, 58, 58);
+}
+
+.subheader{
+  font-size: 20px;
+font-weight: bold;
+text-align: center;
+margin-top: 15px;
+color: rgb(58, 58, 58);
+}
+
+.content{
+  font-size: 12px;
+font-weight: bold;
+text-align: center;
+margin-top: 15px;
+color: rgb(58, 58, 58);
+}
+
+.contactme{
+  margin-left: 5rem;
+  margin-top: 15px;
+color: rgb(58, 58, 58);  
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+.contactme{
+  margin-left: 1rem;
+  margin-top: 15px;
+  font-size: 15px;
+color: rgb(58, 58, 58);  
+}
+}
+
+h3{
+  font-size: 30px;
+font-weight: bold;
+margin: 3rem 0.2rem;
+color: rgb(58, 58, 58);
+}
+
+.thirdh{
+  font-size: 50px;
+font-weight: bold;
+margin-left: 5rem;
+  margin-top: 5rem;
+color: rgb(58, 58, 58);
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+.thirdh{
+  font-size: 50px;
+font-weight: bold;
+margin-left: 1rem;
+  margin-top: 4rem;
+color: rgb(58, 58, 58);
+} 
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+h3{
+  font-size: 20px;
+font-weight: bold;
+ margin: 2rem 0.07rem;
+color: rgb(58, 58, 58);
+ text-align: center;
+} 
+}
+
+.aboutme{
+  margin-left: 5rem;
+  margin-top: 15px;
+color: rgb(58, 58, 58);
+font-style: italic;
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+.aboutme{
+  margin-left: 1rem;
+  margin-top: 1rem;
+color: rgb(58, 58, 58);
+font-style: italic;
+ font-size: 15px;
+} 
+}
+
+.respond{
+margin: 0 auto;
+max-width: 100%;
+width: 100%
+}
+
+.menu{
+color: white;
+cursor: pointer;
+display: none;
+}
+
+@media(max-width: 900px){
+.menu{
+color: white;
+display: block;
+font-size: 25px;
+}
+.navtab.hidden{
+  display: none;
+} 
+}
+
+
+@media(max-width: 481px) and (max-width: 768px){
+.navtab{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.16rem;
+  margin: 1rem 1rem;
+  width: 200px;
+  height: 5px;
+  align-items: center;
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+
+}
+
+@media(max-width: 481px) and (max-width: 768px){
+.navbar{
+  background-color: #bda020;
+  opacity: 0.8;
+  padding: 0 1rem;
+  display: flex;
+margin: 0 auto;
+max-width: 100%;
+width: 100%;
+  
+}
+}
+}
